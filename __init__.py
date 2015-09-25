@@ -21,12 +21,8 @@
  ***************************************************************************/
  This script initializes the plugin, making it known to QGIS.
 """
-import sys
-import qgis.gui
+import qtqgisgui
 
-
-sys.modules["qgsfieldexpressionwidget"] = qgis.gui
-sys.modules["qgsmaplayercombobox"] = qgis.gui
 
 # noinspection PyPep8Naming
 def classFactory(iface):  # pylint: disable=invalid-name
